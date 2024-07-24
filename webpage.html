@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .main {
+            padding: 50px;
+        }
+
+        .main1 {
+            background-color: beige;
+            border-radius: 10px;
+            margin: 10px;
+            /* margin-right: 100px; */
+            width: 200px;
+        }
+
+        .main2 {
+            background-color:beige;
+            border-radius: 15px;
+            /* margin-right: 200px; */
+            margin: 10px;
+            width: 200px;
+        }
+
+        .mainn {
+            /* display: flex; */
+        }
+
+        .main3 {
+            background-color: beige;
+            border-radius: 15px;
+            padding: 15px;
+            
+        }
+
+        .sky {
+            /* float: right; */
+            height: 100%;
+            width: 100%;
+            padding-top: 50px;
+            animation-name: ani;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+
+
+
+        }
+        @keyframes ani {
+            0%{content: url(c2.jpg);}
+            33%{content: url(cofee1.webp);}
+            66%{content: url(sky.jpg);}
+            100%{content: url(IMG_8544.JPG);}
+            
+        }
+        .c1{
+            position: relative;
+        }
+        .bts {
+           
+            position: absolute;
+           
+            left: 45%;
+           
+        }
+        .main1:hover{
+            background-color: aqua;
+        }
+        .main2:hover{
+            background-color: aqua;
+        }
+        .main3:hover{
+            background-color: aqua;
+        }
+        .btt{
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-xl-6 col-md-12 main">
+                <div class="row">
+                    <h1>We build Your dreams</h1>
+                    <h1>house with our passion</h1>
+                </div>
+                <div>
+                    <p> Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.
+                        Natus nam ut repellendus
+                        veritatis voluptas aut quod soluta <br>
+                        quas quos nisi!
+                        Laudantium numquam tempore voluptate <br> animi quibusdam deleniti,
+                        perspiciatis laboriosam aperiam.</p>
+                </div>
+                <div class="sub">
+                    <button class="col-xl-4 col-sm-12 btt">Get started</button>
+                   
+                </div>
+
+
+                <div class="row mainn">
+                    <div class="col-xl-4 col-sm-12  main1">
+                        <b>178k+</b> <br>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis praesentium impedit iusto illo excepturi quibusdam,
+                        </p>
+
+                    </div>
+                    <div class="col-xl-4 col-sm-12  main2">
+                        <b>362</b> <br>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis praesentium impedit iusto illo excepturi quibusdam,
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="row main3">
+                    <div class="col-8">
+                    <b>Title</b><br>
+                    <p> Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit.
+                        Vero perspiciatis fuga sunt dignissimos ratione repellat
+                        illum sed fugit beatae, 
+                    </p>
+                 </div>
+                    <div class="col-4">
+                        <img src="img1.jpg" alt="" height="100px" width="100%">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-sm-12  c1">
+                <div class="bts">
+                    <img src="bts2.jpg" alt="" height="80px" width="80px" style="border-radius: 200px;">
+                </div>
+                <div class="sky">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
